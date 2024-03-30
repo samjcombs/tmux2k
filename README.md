@@ -5,3 +5,6 @@
 ## Check out that widget
 ![image](https://github.com/samjcombs/tmux2k/assets/104232548/c2bdd0cb-59d4-4548-aecd-abd58299b849)
 
+## Thanks
+Many thanks to @2KAbhishek for putting together such a great tmux status bar plugin!
+
