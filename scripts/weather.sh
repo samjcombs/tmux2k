@@ -66,7 +66,7 @@ display_weather() {
     temperature=$(echo "$weather_information" | rev | cut -d ' ' -f 1 | rev)
     unicode=$(forecast_unicode "$condition")
 
-    echo "$unicode${temperature/+/} $condition"
+    echo "$unicode${temperature/+/}"
 }
 
 main() {
