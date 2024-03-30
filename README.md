@@ -3,5 +3,5 @@
 <p>Also relies only on icon for weather status rather than the word, saving valuable space.   Icon + temp, thats it.  tmux2k is badass, you should try it...</p>
 
 ## Check out that widget
-<img width="1496" alt="image" src="https://github.com/samjcombs/tmux2k/assets/104232548/610f16cd-4649-4d70-b41c-279302915ca5">
+![image](https://github.com/samjcombs/tmux2k/assets/104232548/c2bdd0cb-59d4-4548-aecd-abd58299b849)
 
