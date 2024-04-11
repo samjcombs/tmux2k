@@ -74,11 +74,11 @@ main() {
     bat_label="$(battery_label)"
 
     if [ -z "$bat_stat" ]; then
-        echo "$bat_label $bat_perc%"
+        echo "$bat_label$bat_perc%"
     elif [ -z "$bat_perc" ]; then
-        echo "$bat_stat $bat_label"
+        echo "$bat_stat$bat_label"
     else
-        echo "$bat_stat $bat_label $bat_perc%"
+        echo "$bat_stat$bat_label$bat_perc%"
     fi
 }
 
