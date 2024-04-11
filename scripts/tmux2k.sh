@@ -182,7 +182,7 @@ status_bar() {
                 IFS=' ' read -r -a next_colors <<<"$(get_plugin_colors "$next_plugin")"
                 pl_bg=${!next_colors[0]:-$bg_main}
                 tmux set-option -ga status-left \
-                    "#[fg=${!colors[1]},bg=${!colors[0]}]$script#[fg=${!colors[0]},bg=${pl_bg},nobold,nounderscore,noitalics]${l_sep}"
+                    "#[fg=${!colors[1]},bg=${!colors[0]}] $script#[fg=${!colors[0]},bg=${pl_bg},nobold,nounderscore,noitalics]${l_sep}"
                 pl_bg=${bg_main}
             else
                 tmux set-option -ga status-left "#[fg=${!colors[1]},bg=${!colors[0]}] $script "
