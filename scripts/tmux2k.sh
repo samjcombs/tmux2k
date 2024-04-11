@@ -7,7 +7,7 @@ source "$current_dir"/utils.sh
 
 show_powerline=$(get_tmux_option "@tmux2k-show-powerline" true)
 refresh_rate=$(get_tmux_option "@tmux2k-refresh-rate" 60)
-start_icon=$(get_tmux_option "@tmux2k-start-icon" '')
+start_icon=$(get_tmux_option "@tmux2k-start-icon" 'session')
 l_sep=$(get_tmux_option "@tmux2k-left-sep" )
 r_sep=$(get_tmux_option "@tmux2k-right-sep" )
 wl_sep=$(get_tmux_option "@tmux2k-window-left-sep" )
