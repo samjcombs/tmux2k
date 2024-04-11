@@ -149,13 +149,13 @@ set_options() {
 
 start_icon() {
     case $start_icon in
-    session) start_icon="#S" ;;
+    session) start_icon=" #S" ;;
     window) start_icon="#W" ;;
     esac
 
-    first_plugin=${lplugins[0]}
-    IFS=' ' read -r -a first_colors <<<"$(get_plugin_colors "$first_plugin")"
-    tmux set-option -g status-left "#[bg=${!first_colors[0]},fg=${!first_colors[1]}]#{?client_prefix,#[bg=${light_yellow},} ${start_icon} "
+    # first_plugin=${lplugins[0]}
+    # IFS=' ' read -r -a first_colors <<<"$(get_plugin_colors "$first_plugin")"
+    tmux set-option -g status-left "#[bg=#a6da95,fg=#282a36] ${start_icon} "
 }
 
 status_bar() {
