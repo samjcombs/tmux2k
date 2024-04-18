@@ -3,7 +3,11 @@
 <p>Also relies only on icon for weather status rather than the word, saving valuable space.   Icon + temp, thats it.  tmux2k is badass, you should try it...</p>
 
 ## Check out that widget
-![image](https://github.com/samjcombs/tmux2k/assets/104232548/c2bdd0cb-59d4-4548-aecd-abd58299b849)
+![image](https://github.com/samjcombs/tmux2k/assets/104232548/c2bdd0cb-59d4-4548-aecd-abd58299b849)  
+
+## tmux-sessionizer integration
+![image](https://github.com/samjcombs/tmux2k/assets/104232548/fc89209d-aad6-425b-9274-da421210055d)
+
 
 ## Thanks
 Many thanks to @[2KAbhishek](https://github.com/2KAbhishek/) for putting together such a great tmux status bar plugin!
